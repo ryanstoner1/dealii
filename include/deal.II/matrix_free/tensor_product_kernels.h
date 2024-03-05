@@ -679,7 +679,7 @@ namespace internal
   inline DEAL_II_ALWAYS_INLINE
 #endif
     std::enable_if_t<(variant == evaluate_evenodd), void>
-    apply_matrix_vector_product(const Number2 *DEAL_II_RESTRICT matrix,
+    apply_matrix_vector_product(const Number2 *matrix,
                                 const Number                   *in,
                                 Number                         *out,
                                 int n_rows_runtime     = 0,
